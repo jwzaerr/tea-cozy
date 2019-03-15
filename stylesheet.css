@@ -1,0 +1,159 @@
+/* TEA COZY */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	position:fixed;
+	height: 69px;
+	width: 100%;
+	z-index: 1;
+	border-bottom: 1px solid seashell;
+}
+
+#logo {
+	height: 50px;
+
+}
+
+nav.header {
+
+}
+
+
+.container {
+	font-family: "Helvetica";
+	color: seashell;
+	background-color: black;
+	width: 100%;
+	position: relative;
+	top: 69px;
+}
+
+
+
+/* OUR MISSION */
+
+
+
+#mission {
+	display: flex;
+	align-items: center;
+	position: relative;
+	background-image: url("images/mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.black-bar {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+	height: 70px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+
+
+
+/* TEA OF THE MONTH SECTION */
+
+
+
+#month {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	background-color: black;
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.product {
+	margin: 0px 25px;
+	height: 225px;
+	width: 300px;
+}
+
+.product-img {
+
+	height: 200px;
+	width: 300px;
+}
+
+#month span {
+
+	width: 100%;
+}
+
+#month h2 {
+	margin: 10px;
+}
+
+#month h4 {
+	margin: 10px;
+}
+
+
+
+/* LOCATIONS SECTION */
+
+
+
+#locations {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("images/locations-background.jpg");
+
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.local {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	height: 250px;
+	width: 300px;
+	background-color: black;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+
+
+
+#footer {
+	display: flex;
+	height: 200px;
+	width: 1200px;
+}
