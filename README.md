@@ -1,3 +1,3 @@
-# tea-cozy
+# Tea Cozy
 
-practice website - flex box
+project webpage
