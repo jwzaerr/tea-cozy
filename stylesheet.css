@@ -16,16 +16,33 @@ header {
 	width: 100%;
 	z-index: 1;
 	border-bottom: 1px solid seashell;
+	font-size: 22px;
+	opacity: 0.9;
+	font-family: "Helvetica";
 }
 
 #logo {
 	height: 50px;
-
+	margin-left: 10px;
 }
 
-nav.header {
-
+.header span {
+	padding: 0px 10px;
+	text-decoration: underline;
 }
+
+.header a:link {
+	color: seashell;
+}
+
+.header a:visited {
+	color: seashell;
+}
+
+
+
+/* MAIN CONTAINER */
+
 
 
 .container {
@@ -35,6 +52,7 @@ nav.header {
 	width: 100%;
 	position: relative;
 	top: 69px;
+	text-align: center;
 }
 
 
@@ -55,7 +73,6 @@ nav.header {
 }
 
 .black-bar {
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -78,55 +95,65 @@ nav.header {
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-
-	text-align: center;
-	background-color: black;
-	height: 700px;
 	width: 1200px;
 	margin: 0 auto;
+	padding: 75px 0px;
+	font-weight: bold;
+}
+
+#month h2, h4 {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+}
+
+.teas {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .product {
-	margin: 0px 25px;
-	height: 225px;
-	width: 300px;
-}
-
-.product-img {
-
+	display: block;
 	height: 200px;
 	width: 300px;
+	margin: 0px 10px 60px 10px;
 }
 
-#month span {
-
-	width: 100%;
-}
-
-#month h2 {
-	margin: 10px;
-}
-
-#month h4 {
-	margin: 10px;
+.product img {
+	height: 200px;
+	width: 300px;
+	padding: 10px 0px;
 }
 
 
 
 /* LOCATIONS SECTION */
 
-
-
 #locations {
+	background-image: url("images/locations-background.jpg");
+	height: 550px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+#locations h2 {
+	padding-top: 100px;
+	padding-bottom: 15px;
+
+}
+
+
+.local-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	background-image: url("images/locations-background.jpg");
-
-	height: 500px;
 	width: 1200px;
 	margin: 0 auto;
+	opacity: 1;
 }
 
 .local {
@@ -138,17 +165,8 @@ nav.header {
 	height: 250px;
 	width: 300px;
 	background-color: black;
-	margin: 20px;
+	margin: 0px 20px;
 }
-
-
-/*
-.local-headline {
-	width: 1200px;
-}
-*/
-
-
 
 
 
@@ -156,8 +174,22 @@ nav.header {
 
 
 
+#contact {
+height: 200px;
+width: 100%;
+}
+
+#contact h2 {
+ padding: 20px 0px;
+}
+
+#contact h5 {
+	padding: 15px 0px;
+}
+
 #footer {
-	display: flex;
-	height: 200px;
-	width: 1200px;
+	height: 50px;
+	text-align: left;
+	margin-left: 20px
+
 }
