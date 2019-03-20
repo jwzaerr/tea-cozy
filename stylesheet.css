@@ -69,7 +69,6 @@ header {
 	height: 700px;
 	width: 1200px;
 	margin: 0 auto;
-
 }
 
 .black-bar {
@@ -132,6 +131,8 @@ header {
 
 /* LOCATIONS SECTION */
 
+
+
 #locations {
 	background-image: url("images/locations-background.jpg");
 	height: 550px;
@@ -143,7 +144,6 @@ header {
 #locations h2 {
 	padding-top: 100px;
 	padding-bottom: 15px;
-
 }
 
 
@@ -191,5 +191,4 @@ width: 100%;
 	height: 50px;
 	text-align: left;
 	margin-left: 20px
-
 }
